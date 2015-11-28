@@ -1,5 +1,5 @@
 # Update stuff
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update -y && sudo apt-get upgrade -y
 
 # Install Docker don't forget the .io part otherwise you get something different ;-)
 sudo apt-get install -y docker.io
